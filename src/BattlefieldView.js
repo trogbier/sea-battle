@@ -1,0 +1,2 @@
+class BattlefieldView extends Battlefield {
+}
