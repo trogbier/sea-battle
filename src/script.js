@@ -1,8 +1,5 @@
-const mouse = new Mouse(document.body)
+const app = new Application({
+    preparation: PreparationScene,
+});
 
-requestAnimationFrame(tick)
-
-function tick() {
-    requestAnimationFrame(tick)
-    console.log(mouse)
-}
+app.start("preparation");
